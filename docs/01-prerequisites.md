@@ -65,7 +65,7 @@ tmux split-window (Control + b then ")
 
 > Enable `synchronize-panes`: `ctrl+b` then `shift :`. Then type `set synchronize-panes on` at the prompt. To disable synchronization: `set synchronize-panes off`.
 
-
+See https://robots.thoughtbot.com/a-tmux-crash-course
 
 
 Next: [Installing the Client Tools](02-client-tools.md)

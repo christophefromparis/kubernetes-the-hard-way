@@ -78,7 +78,7 @@ alias kgcs='ks get componentstatuses'
 
 alias kccctx='kubectl config current-context'
 alias kcuctx='kubectl config use-context'
-alias kcgctx='kubectl config get-context'
+alias kcgctx='kubectl config get-contexts'
 ```
 
 Next: [Installing the Client Tools](02-client-tools.md)

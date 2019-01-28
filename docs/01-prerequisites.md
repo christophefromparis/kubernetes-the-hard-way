@@ -68,4 +68,17 @@ tmux split-window (Control + b then ")
 See https://robots.thoughtbot.com/a-tmux-crash-course
 See https://gist.github.com/Bekbolatov/6840069e51382965fdad
 
+### Alias
+
+```
+alias kc='kubectl'
+alias kgp='kc get pods'
+alias kgs='kc get svc'
+alias kgcs='ks get componentstatuses'
+
+alias kccctx='kubectl config current-context'
+alias kcuctx='kubectl config use-context'
+alias kcgctx='kubectl config get-context'
+```
+
 Next: [Installing the Client Tools](02-client-tools.md)

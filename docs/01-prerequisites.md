@@ -52,6 +52,20 @@ gcloud config set compute/zone us-west1-c
 
 ![tmux screenshot](images/tmux-screenshot.png)
 
+
+Create a new tmux session named session_name:
+```
+tmux new -s session_name
+```
+
+Split the window into two vertical panes:
+```
+tmux split-window (Control + b then ")
+```
+
 > Enable `synchronize-panes`: `ctrl+b` then `shift :`. Then type `set synchronize-panes on` at the prompt. To disable synchronization: `set synchronize-panes off`.
+
+
+
 
 Next: [Installing the Client Tools](02-client-tools.md)
